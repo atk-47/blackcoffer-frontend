@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); /* Adjust as needed */
+  gap: 10px;
+  padding: 20px;
+}
+
+.app-wide-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 2fr)); /* Adjust as needed */
+  gap: 10px;
+  padding: 20px;
+}
+
+.pie-chart-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #3c3b3b;
+  border-radius: 8px;
+  overflow: hidden; /* Ensures the pie chart stays within its container */
+  /* 3D soft-looking shadow effect */
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1), /* Soft shadow layer at the top */
+    0 6px 15px rgba(0, 0, 0, 0.1), /* More pronounced shadow layer */
+    0 10px 24px rgba(0, 0, 0, 0.1); /* Even more pronounced shadow layer */
+}
+.bargraph-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #3c3b3b;
+  border-radius: 8px;
+  overflow: hidden; /* Ensures the pie chart stays within its container */
+  /* 3D soft-looking shadow effect */
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1), /* Soft shadow layer at the top */
+    0 6px 15px rgba(0, 0, 0, 0.1), /* More pronounced shadow layer */
+    0 10px 24px rgba(0, 0, 0, 0.1); /* Even more pronounced shadow layer */
+}
